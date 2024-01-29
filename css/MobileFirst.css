@@ -1,0 +1,88 @@
+header{
+    width: 100%;
+    height: 32dvh;
+}
+
+/*Propaganda de envio gratis */
+.animate__animated{
+   background-color: var(--color-secundary);
+   border-radius: 5px;
+}
+.animate__flash{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    color: var(--color-primary);
+    padding: 3px;
+}
+
+/*-*/
+
+/* NAVBAR */
+.nav__bar li{
+    list-style: none;
+}
+
+.nav__bar a{
+    text-decoration: none;
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 16px;
+    padding: 5px;
+}
+
+.logo{
+   width: 220px;
+}
+
+/*--*/
+
+/*SECTION 1*/
+
+.section1{
+    position: relative;
+    background-color: var(--color-secundary);
+    width: 100%;
+    height: 50dvh;
+}
+
+.img-mancha{
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    width: 300px;
+}
+
+.titulo__sec__1{
+    position: absolute;
+    left: 55px;
+    top: -10%;
+    font-family: 'Jasmitha Script', sans-serif;
+    color:var(--color-primary);
+    font-size: 80px;
+}
+
+.subtitulo{
+    font-size: 25px;
+    color: var(--color-primary);
+    position: absolute;
+    left:65%;
+    bottom: 60%;
+}
+
+.container__img__sec1{
+    position: relative;
+    top: 35%;
+    right: 12%;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+
+}
+
+.img-ropero{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+}
