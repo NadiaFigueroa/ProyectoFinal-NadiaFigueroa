@@ -1,0 +1,12 @@
+@import url(../normalize.css);
+@import url(../css/MobileFirst.css);
+
+
+
+:root{
+    --color-primary: #1C4070;
+    --color-secundary:rgb(186, 221, 233);
+    --color-terciary:#EDD2AA;
+    --color-4: white;
+    --color-5: #f3f1e9;
+}
