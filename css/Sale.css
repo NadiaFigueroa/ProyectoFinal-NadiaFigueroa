@@ -9,4 +9,364 @@
     --color-terciary:#EDD2AA;
     --color-4: white;
     --color-5: #f3f1e9;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*SECTION-SALE*/
+
+.sec1{
+    width: 100%;
+}
+
+
+.titulo__sale{
+    width: 100%;
+    background-color: var(--color-secundary);
+    color: var(--color-primary);
+    text-align: center;
+	-webkit-animation: text-flicker-in-glow 4s linear both;
+    animation: text-flicker-in-glow 4s linear both;
+}
+@-webkit-keyframes text-flicker-in-glow {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    10.1% {
+      opacity: 1;
+      text-shadow: none;
+    }
+    10.2% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    20% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    20.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    }
+    20.6% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    30% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    30.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    30.5% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    30.6% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    45% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    45.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    50% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    55% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    55.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    57% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    57.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+    }
+    60% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+    }
+    60.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    65% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    65.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    75% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    75.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    77% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    77.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    85% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    85.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    86% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    86.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    100% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+  }
+  @keyframes text-flicker-in-glow {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    10.1% {
+      opacity: 1;
+      text-shadow: none;
+    }
+    10.2% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    20% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    20.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    }
+    20.6% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    30% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    30.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    30.5% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    30.6% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    45% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    45.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    50% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    55% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25);
+    }
+    55.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    57% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    57.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+    }
+    60% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35);
+    }
+    60.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    65% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    65.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    75% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.35), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    75.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    77% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    77.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    85% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.55), 0 0 60px rgba(255, 255, 255, 0.4), 0 0 110px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    85.1% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    86% {
+      opacity: 0;
+      text-shadow: none;
+    }
+    86.1% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+    100% {
+      opacity: 1;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    }
+  }
+  
+
+
+/*Container Cards*/
+
+.container__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 25px;
+    gap: 40px;
+}
+/*---------*/
+
+/*Cards Imagenes*/
+.card{
+    width: 21dvh;
+    height: 30dvh;
+    background-color:var(--color-terciary);
+    border-radius: 5%;
+}
+
+.img{
+    width: 20dvh;
+    height: 20dvh;
+}
+
+.img1{
+    height: 22dvh;
+}
+
+.img2{
+    height: 22dvh;
+}
+
+.card p{
+    background-color:var(--color-secundary);
+    color: var(--color-primary);
+    text-align: center;
+}
+
+/*-------------*/
+
+
+ 
+/*Circulo-Descuento*/
+.Redondel__descuento{
+    position: absolute;
+    left: 49%;
+    top: 67%;
+    width: 5.5dvh;
+    height: 5.5dvh;
+    background-color:var(--color-secundary);
+    border-radius: 50%;
+}
+
+.Redondel__descuento p{
+    color: var(--color-primary);
+    font-size: 12px;
+}
+
+.redondo2{
+    position: absolute;
+    top: 102%;
+}
+
+.redondo3{
+    position: absolute;
+    top: 136%;
+}
+
+.redondo4{
+    position: absolute;
+    top: 171%;
+}
+
+.redondo5{
+    position: absolute;
+    top: 206%;
+}
+
+.redondo6{
+    position: absolute;
+    top: 241%;
+}
+
+/*Footer*/
+
+.footer{
+    margin-top: 40px;
 }
