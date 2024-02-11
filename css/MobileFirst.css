@@ -1,6 +1,9 @@
 @import url(../normalize.css);
 
 
+body{
+    scroll-behavior: smooth;
+}
 
 /*HEADER*/
 header{
@@ -52,7 +55,7 @@ header{
 
 .logo{
    position: relative;
-   left: 10%;
+   left: 12%;
    width: 220px;
    height: 150px;
 }
@@ -60,7 +63,7 @@ header{
 
 /*--*/
 
-/*SECTION 1*/
+/*SECTION 1----MOBILE*/
 
 .section1{
     background-color: var(--color-secundary);
@@ -116,9 +119,9 @@ header{
 /* ANIMATIONS */
 
 .x1 {
-  -webkit-animation: animateCloud 30s linear infinite;
-  -moz-animation: animateCloud 30s linear infinite;
-  animation: animateCloud 30s linear infinite;
+  -webkit-animation: animateCloud 25s linear infinite;
+  -moz-animation: animateCloud 25s linear infinite;
+  animation: animateCloud 25s linear infinite;
   
   -webkit-transform: scale(0.65);
   -moz-transform: scale(0.65);
@@ -165,7 +168,7 @@ header{
   transform: scale(0.55);
 }
 
-/* OBJECTS */
+/* NUBES*/
 
 .cloud {
   background: #fff;
@@ -329,9 +332,10 @@ header{
 }
 .container__video{
     width: 100%;
-    height: 86dvh;
+    height: 80dvh;
     position: relative;
     background-color: rgb(0, 0, 0);
+    overflow: hidden;
 }
 
 .video__Sec3{
@@ -398,3 +402,14 @@ header{
     font-size: 15px;
 }
 
+/*Boton subir*/
+
+.container__btn {
+    background-color: aqua;
+    border: solid 1px var(--color-primary);
+    border-radius: 15%;
+}
+
+.container__btn button{
+    color: var(--color-primary);
+}

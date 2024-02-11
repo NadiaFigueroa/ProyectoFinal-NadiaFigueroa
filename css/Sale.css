@@ -12,6 +12,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+.nav__bar a:first-child{
+  color: var(--color-primary);
+}
+
 /*SECTION-SALE*/
 
 .sec1{
@@ -294,31 +299,31 @@
 /*---------*/
 
 /*Cards Imagenes*/
-.card{
-    width: 21dvh;
-    height: 30dvh;
-    background-color:var(--color-terciary);
-    border-radius: 5%;
+
+.Container__img{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.img{
-    width: 20dvh;
-    height: 20dvh;
+.Card{
+  width: 250px;
+  background-color:var(--color-terciary);
+  border-radius: 5%;
 }
 
-.img1{
-    height: 22dvh;
+.Card img{
+  width: 250px;
+  height: 250px;
 }
 
-.img2{
-    height: 22dvh;
+.Card p{
+  background-color: var(--color-secundary);
+  color: var(--color-primary);
+  text-align: center;
 }
 
-.card p{
-    background-color:var(--color-secundary);
-    color: var(--color-primary);
-    text-align: center;
-}
 
 /*-------------*/
 
@@ -335,34 +340,43 @@
     border-radius: 50%;
 }
 
-.Redondel__descuento p{
-    color: var(--color-primary);
-    font-size: 12px;
+/*Posicionamiento Circulos de Descuento*/
+
+
+.Redondel__descuento{
+  color: var(--color-primary);
+  font-size: 12px;
+  position: absolute;
+  left: 58%;
+  top: 72%;
 }
+
 
 .redondo2{
     position: absolute;
-    top: 102%;
+    top: 112%;
+    left: 58%;
 }
 
 .redondo3{
     position: absolute;
-    top: 136%;
+    top: 152%;
+    left: 57%;
 }
 
 .redondo4{
     position: absolute;
-    top: 171%;
+    top: 192%;
 }
 
 .redondo5{
     position: absolute;
-    top: 206%;
+    top: 232%;
 }
 
 .redondo6{
     position: absolute;
-    top: 241%;
+    top: 272%;
 }
 
 /*Footer*/
