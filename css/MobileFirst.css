@@ -1,10 +1,6 @@
 @import url(../normalize.css);
 
 
-body{
-    scroll-behavior: smooth;
-}
-
 /*HEADER*/
 header{
     width: 100%;
@@ -344,6 +340,62 @@ header{
 }
 
 /*-----------*/
+
+/* SECTION 4 FORMULARIO */
+
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secundary);
+    width: 100%;
+    height: 100dvh;
+}
+
+.section4 h1{
+    color: var(--color-primary);
+    background-color: var(--color-secundary);
+    font-size: 23px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40dvh;
+    height: 70dvh;
+    background-color: var(--color-secundary);
+    border: solid 1px var(--color-primary);
+}
+.contenido__form{
+    width: 20dvh;
+    height: 60dvh;
+}
+
+.contenido__form p{
+    color: rgba(0, 0, 0, 0.253);
+    text-align: center;
+}
+
+
+.contenido__form .email:invalid{
+    background-color: rgba(255, 1, 1, 0.664);
+}
+
+.contenido__form .email:valid{
+    
+    background-color: rgba(79, 163, 11, 0.664);
+}
+
+.archivo{
+    width: 21dvh;
+}
+
 
 /*FOOTER*/
 
