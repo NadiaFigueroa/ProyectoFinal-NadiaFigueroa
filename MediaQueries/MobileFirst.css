@@ -409,6 +409,12 @@ header{
     background-color: rgba(79, 163, 11, 0.664);
 }
 
+.btn__form{
+    margin-top: 25px;
+    margin-left: 80%;
+    
+}
+
 /*FOOTER*/
 
 .footer{
