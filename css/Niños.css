@@ -1,5 +1,9 @@
 @import url(../normalize.css);
-@import url(../css/MobileFirst.css);
+@import url(../MediaQueries/MobileFirst.css);
+@import url(../MediaQueries/MobileL.css);
+@import url(../MediaQueries/Tablet.css);
+@import url(../MediaQueries/Laptop.css);
+@import url(../MediaQueries/Desktop.css);
 
 
 
@@ -15,9 +19,7 @@
     color: var(--color-primary);
 }
 
-
-
-.nav__bar a:last-child{
+.nav__bar li a:last-child{
     color: red;
 }  
 

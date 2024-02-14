@@ -1,5 +1,8 @@
 @import url(../normalize.css);
-@import url(../css/MobileFirst.css);
+@import url(../MediaQueries/MobileFirst.css);
+@import url(../MediaQueries/MobileL.css);
+@import url(../MediaQueries/Tablet.css);
+@import url(../MediaQueries/Laptop.css);
 
 
 

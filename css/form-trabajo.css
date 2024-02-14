@@ -1,8 +1,24 @@
 @import url(../normalize.css);
-@import url(../css/form-trabajo.css);
+@import url(../MediaQueries/MobileFirst.css);
+@import url(../MediaQueries/MobileL.css);
+@import url(../MediaQueries/Tablet.css);
+@import url(../MediaQueries/Laptop.css);
+@import url(../MediaQueries/Desktop.css);
 
 
-.nav__bar a:nth-child(2){
+
+/*LOGO*/
+
+.logo{
+    position: relative;
+    left: 12%;
+    width: 220px;
+    height: 150px;
+ }
+ 
+
+/*NAV BAR*/
+.nav__bar li a:nth-child(2){
     color: rgb(255, 0, 0);
 }  
 
@@ -10,17 +26,28 @@
     color: var(--color-primary);
 }
 
+.nav__bar li a:nth-child(4){
+    color:var(--color-primary);
+} 
+
+/*FORMULARIO*/
+
 .Container__form{
     width: 100%;
     height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .Container__form h1{
     color: var(--color-primary);
     background-color: var(--color-secundary);
+    width: 100%;
     font-size: 23px;
-    margin-top: 50px;
     text-align: center;
+    margin: 40px;
 }
 
 form{
@@ -28,9 +55,6 @@ form{
     height: 70dvh;
     background-color: var(--color-secundary);
     border: solid 1px var(--color-primary);
-    position: absolute;
-    left: 11%;
-    top: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;

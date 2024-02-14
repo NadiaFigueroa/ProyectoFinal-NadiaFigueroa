@@ -1,0 +1,68 @@
+@import url(../normalize.css);
+@import url(../MediaQueries/MobileFirst.css);
+
+
+
+@media screen and (min-width: 425px){
+
+/*LOGO HEADER*/
+    
+.logo{
+    position: relative;
+    left: 18%;
+    width: 220px;
+    height: 150px;
+ }
+ 
+ /*SECCION 1- IMAGEN Y TITULO*/
+
+.titulo__sec__1{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    font-family: 'Jasmitha Script', sans-serif;
+    color:var(--color-primary);
+    font-size: 90px;
+    z-index: 1;
+}
+.subtitulo{
+    font-size: 30px;
+    color: var(--color-primary);
+    position: absolute;
+    left:65%;
+    top: 30%;
+    z-index: 1;
+}
+
+.img-ropero{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 60%;
+    z-index: 1;
+}
+
+/*IMAGEN ESCONDIDA SECCION2*/
+
+
+.img__containerSec2:nth-child(5){
+    display: none;
+}
+
+.img__imgsec2__4{
+    display: none;
+}
+/*LOGO EN EL VIDEO*/
+
+
+.logo__Sec3{
+    width: 40dvh;
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+}
+
+/*SECCION NIÑAS NAVBAR*/
+ 
+
+}
