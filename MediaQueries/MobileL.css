@@ -5,14 +5,16 @@
 
 @media screen and (min-width: 425px){
 
+/*NAV BAR*/
+
+.nav__bar a {
+    padding-left: 15%;
+}
+
 /*LOGO HEADER*/
-    
 .logo{
-    position: relative;
-    left: 18%;
-    width: 220px;
-    height: 150px;
- }
+    left: 23%;
+}
  
  /*SECCION 1- IMAGEN Y TITULO*/
 
@@ -54,7 +56,6 @@
 }
 /*LOGO EN EL VIDEO*/
 
-
 .logo__Sec3{
     width: 40dvh;
     position: absolute;
@@ -62,7 +63,10 @@
     left: 10%;
 }
 
-/*SECCION NIÑAS NAVBAR*/
- 
+/*SECCION 4 FORMULARIO*/
+
+.section4 h2{
+    padding: 10px;
+}
 
 }

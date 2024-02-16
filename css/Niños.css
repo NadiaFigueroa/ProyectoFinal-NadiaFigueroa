@@ -15,74 +15,77 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.nav__bar a:first-child{
+.nav__bar__desktop li a:first-child{
     color: var(--color-primary);
 }
 
-.nav__bar li a:last-child{
-    color: red;
-}  
+.nav__bar__desktop li a:last-child{
+    color:red;
+}
+
 
 /*Seccion1----NIÑOS*/
 
 .Titulo__Niños{
-    color: var(--color-primary);
-    text-align: center;
-    background-color: var(--color-secundary);
+color: var(--color-primary);
+text-align: center;
+background-color: var(--color-secundary);
+margin-bottom: 5px;
 }
 
 
 .Container__img{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: var(--color-4);
 }
 
 .Card{
-    width: 250px;
-    background-color:var(--color-terciary);
-    border-radius: 5%;
+width: 250px;
+background-color:var(--color-terciary);
+border-radius: 5%;
 }
 
 .Card img{
-    width: 250px;
-    height: 250px;
+width: 250px;
+height: 250px;
 }
 
 .Card p{
-    background-color: var(--color-secundary);
-    color: var(--color-primary);
-    text-align: center;
+background-color: var(--color-secundary);
+color: var(--color-primary);
+text-align: center;
 }
 
 
 /*Precios*/
 
 .card1 p:nth-child(3){
-    background-color: var(--color-terciary);
-    color: green;
-    margin-left: 160px;
+background-color: var(--color-terciary);
+color: green;
+margin-left: 160px;
 }
 
 .card2 p:nth-child(3){
-    background-color: var(--color-terciary);
-    color: green;
-    margin-left: 160px;
+background-color: var(--color-terciary);
+color: green;
+margin-left: 160px;
 }
 
 .card3 p:nth-child(3){
-    background-color: var(--color-terciary);
-    color: green;
-    margin-left: 160px;
+background-color: var(--color-terciary);
+color: green;
+margin-left: 160px;
 }
 
 .card4 img{
-    height: 280px;
+height: 280px;
 }
 
 .card4 p:nth-child(3){
-    background-color: var(--color-terciary);
-    color: green;
-    margin-left: 160px;
+background-color: var(--color-terciary);
+color: green;
+margin-left: 160px;
 }

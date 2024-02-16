@@ -8,72 +8,66 @@
 
 /*HEADER*/
 header{
-    width: 100%;
-    height: 42dvh;
-    overflow: hidden;
+width: 100%;
+height: 42dvh;
+overflow: hidden;
 }
 
 
 /*NAV BAR*/
-.nav__bar li{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.nav__bar li a{
-    font-size: 18px;
+.nav__bar__desktop li a{
+font-size: 18px;
 }
 
 .logo{
-    position: relative;
-    left: 36%;
-    width: 280px;
-    height: 200px;
+position: relative;
+left: 38%;
+top: 1%;
+width: 300px;
+height: 200px;
 }
 
 
 /*SECCION 1 IMAGENES Y TITULOS*/
 
 .section1{
-    width: 100%;
-    height: 100dvh;
+width: 100%;
+height: 100dvh;
 }
  
 .titulo__sec__1{
-    position: absolute;
-    left: 35%;
-    top: -10%;
-    font-family: 'Jasmitha Script', sans-serif;
-    color:var(--color-primary);
-    font-size: 170px;
-    z-index: 1;
+position: absolute;
+left: 35%;
+top: -10%;
+font-family: 'Jasmitha Script', sans-serif;
+color:var(--color-primary);
+font-size: 170px;
+z-index: 1;
 }
 
 .subtitulo{
-    font-size: 30px;
-    color: var(--color-primary);
-    position: absolute;
-    left:65%;
-    top: 22%;
-    z-index: 1;
+font-size: 30px;
+color: var(--color-primary);
+position: absolute;
+left:65%;
+top: 22%;
+z-index: 1;
 }
 
 .container__img__sec1{
-    position: relative;
-    top:35%;
-    left: -15%;
-    width: 510px;
-    height: 500px;
-    z-index: 1;
+position: relative;
+top:35%;
+left: -15%;
+width: 510px;
+height: 500px;
+z-index: 1;
 }
 
 .img-ropero{
-    position: absolute;
-    width: 510px;
-    height: 500px;
-    z-index: 1;
+position: absolute;
+width: 510px;
+height: 500px;
+z-index: 1;
 }
 
 /*SECCION 2 ROPA EN CARDS*/
@@ -81,168 +75,167 @@ header{
 
 
 .section2{
-    width: 100%;
-    height: 130dvh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
+width: 100%;
+height: 130dvh;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+position: relative;
 }
 
 
 
 .section2 figure:first-child{
-    width: 100%;
-    position: absolute;
-    top: -2%;
-    text-align: center;
-    font-size: 22px;
-    
+width: 100%;
+position: absolute;
+top: -2%;
+text-align: center;
+font-size: 22px;
 }
 
 
 .img__containerSec2{
-    margin-top: 20dvh;
-    width: 40dvh;
-    height: 40dvh;
-    background-color:var(--color-5);
-    border-radius: 5%;
-    transition: transform 0.3s;
+margin-top: 20dvh;
+width: 40dvh;
+height: 40dvh;
+background-color:var(--color-5);
+border-radius: 5%;
+transition: transform 0.3s;
 }
 
 .img__imgsec2__1{
-    width: 40dvh;
-    height: 40dvh;
+width: 40dvh;
+height: 40dvh;
 }
 
 .img__imgsec2__2{
-    width: 40dvh;
-    height: 40dvh;
+width: 40dvh;
+height: 40dvh;
 }
 
 
 .img__imgsec2__3{
-    width: 40dvh;
-    height: 40dvh;
+width: 40dvh;
+height: 40dvh;
 }
 
 .img__containerSec2{
-    display: inline-block;
+display: inline-block;
 }
 
 .img__imgsec2__4{
-    display: inline-block;
-    width: 40dvh;
-    height: 40dvh;
+display: inline-block;
+width: 40dvh;
+height: 40dvh;
 }
 
 .img__containerSec2:nth-child(5){
-    display: inline-block;
-    width: 40dvh;
-    height: 40dvh;
-    background-color:var(--color-5);
-    border-radius: 5%;
-    transition: transform 0.3s;
+display: inline-block;
+width: 40dvh;
+height: 40dvh;
+background-color:var(--color-5);
+border-radius: 5%;
+transition: transform 0.3s;
 }
 
 /*LOGO EN EL VIDEO*/
 
 
 .logo__Sec3{
-    width: 95dvh;
-    position: absolute;
-    bottom: 40%;
-    left: 11%;
+width: 95dvh;
+position: absolute;
+bottom: 40%;
+left: 11%;
 }
 
 /*FORMULARIO*/
 
 
 .section4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-secundary);
-    width: 100%;
-    height: 80dvh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: var(--color-secundary);
+width: 100%;
+height: 80dvh;
 }
 
 .section4 h1{
-    font-size: 28px;
+font-size: 28px;
 }
 
 .frm__prom{
-    width: 45dvh;
-    height: 50dvh;
-    padding: 25px;
+width: 45dvh;
+height: 50dvh;
+padding: 25px;
 }
 .contenido__form__prom{
-    padding: 25px;
-    width: 30dvh;
-    height: 75dvh;
+padding: 25px;
+width: 30dvh;
+height: 75dvh;
 }
 
 
 /*SECCION BABYS-NAVBAR*/
 
 .nav__bar li a:last-child{
-    color:var(--color-primary);
+color:var(--color-primary);
 }
 
 
 
 .Titulo__Babys{
-    font-size: 35px;
+font-size: 35px;
 }
 
 
 .Container__img{
-    width: 100%;
-    height: 100dvh;
-    flex-wrap: wrap;
+width: 100%;
+height: 100dvh;
+flex-wrap: wrap;
 }
 
 .Card{
-    width: 450px;
+width: 450px;
 }
 
 /*SECCION NIÑAS NAVBAR*/
 
 .Titulo__niñas{
-    font-size: 35px;
+font-size: 35px;
 }
 
 .Container__img{
-    width: 100%;
-    height: 100dvh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
+width: 100%;
+height: 100dvh;
+display: flex;
+flex-wrap: wrap;
+justify-content:space-between;
 }
 
 .Card{
-    width: 450px;
+width: 450px;
 }
 
 /*SECCION NIÑOS NAVBAR*/ 
 
 .Titulo__Niños{
-    font-size: 35px;
+font-size: 35px;
 }
 
 .Container__img{
-    width: 100%;
-    height: 120dvh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    align-items: center;
+width: 100%;
+height: 120dvh;
+display: flex;
+flex-wrap: wrap;
+justify-content:space-around;
+align-items: center;
 }
 
 .Card{
-    width: 450px;
+width: 450px;
 }
 
 }

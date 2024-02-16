@@ -11,18 +11,34 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.cdnfonts.com/css/jasmitha-script" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Protest+Strike&display=swap" rel="stylesheet">
 
     <title>Bubba Bear</title>
 </head>
 <body>
     <header>
+        <!-- PROMOCION DESCUENTO -->
         <p class="animate__animated animate__flash" >60% OFF en productos seleccionados</p>
-         <figure>
-            <img class="logo" loading="lazy" src="./img-header/osito-logo.png" alt="dibujo de oso">
-         </figure>
-        <ul class="nav__bar">
+          
+        <!-- MENU HAMBURGUESA MOBILE -->
+         <div class="nav__bar">
+            <input type="checkbox">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-times"></i>
+            <nav>
+              <ul>
+                <li><a href="./html/Sale.html">Sale</a></li>
+                <li><a href="./html/Babys.html">Babys</a></li>
+                <li><a href="./html/Niñas.html">Niñas</a></li>
+                <li><a href="./html/Niños.html">Niños</a></li>
+              </ul>
+            </nav>
+          </div>
+          <img class="logo" loading="lazy" src="./img-header/osito-logo.png" alt="dibujo de oso">
+
+          <!-- NAV BAR - DESKTOP  -->
+        <ul class="nav__bar__desktop">
         <li>
             <a href="./html/Sale.html">SALE</a>
             <a href="./html/Babys.html">Babys</a>
@@ -67,6 +83,7 @@
             <figure class="img__containerSec2">
                 <img class="img__imgsec2__1" loading="lazy" src="./img-section2/RopaDeBebe1.png" alt="Ropa de bebé">
             </figure>
+            <!-- <figure><img class="lupa__sec2" src="./img-section2/lupa.png" alt="lupa"></figure> -->
             <figure class="img__containerSec2">
                 <img class="img__imgsec2__2" loading="lazy" src="./img-section2/RopaDeNiña4.png" alt="Ropa de Niña">
             </figure>
@@ -87,19 +104,19 @@
         <!-- SECCION 4 FORMULARIO -->
         <section>
         <div class="section4">
-            <h1>Subscribite para recibir Promociones</h1>
+            <h2>Subscribite para recibir Promociones</h2>
         <form class="frm__prom">
             <fieldset class="contenido__form__prom">
                 <legend>Ingrese sus Datos</legend>
 
-                <label for="nombre">Nombre:</label>
+                <label for="nombre">Nombre:<label>
                 <input type="text" placeholder="nombre" maxlength="20"/>
                 <p>───────────────────</p>
-                <label for="apellido">Apellido:</label>
+                <label for="apellido">Apellido:<label>
                 <input type="text" placeholder="apellido" maxlength="20"/>
                 <p>───────────────────</p>
-                <label for="email">Email</label>
-                <input  class="email"  type="email" name="email"  placeholder="" required>
+                <label for="email">Email<label>
+                <input class="email"  type="email" name="email"  placeholder="" required>
             </fieldset>
             <button class="btn__form">Enviar</button>
         </form>

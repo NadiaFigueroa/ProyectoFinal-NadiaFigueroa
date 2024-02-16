@@ -7,34 +7,31 @@
 
 
 :root{
-    --color-primary: #1C4070;
-    --color-secundary:rgb(186, 221, 233);
-    --color-terciary:#EDD2AA;
-    --color-4: white;
-    --color-5: #f3f1e9;
-    font-family: 'Poppins', sans-serif;
+  --color-primary: #1C4070;
+  --color-secundary:rgb(186, 221, 233);
+  --color-terciary:#EDD2AA;
+  --color-4: white;
+  --color-5: #f3f1e9;
+  font-family: 'Poppins', sans-serif;
 }
 
 
-.nav__bar a:first-child{
-  color: var(--color-primary);
+.nav__bar__desktop li a:first-child{
+  color:var(--color-primary);
 }
 
 /*SECTION-SALE*/
 
-.sec1{
-    width: 100%;
-}
-
-
 .titulo__sale{
-    width: 100%;
-    background-color: var(--color-secundary);
-    color: var(--color-primary);
-    text-align: center;
+  width: 100%;
+  height: 15px;
+  text-align: center;
+  background-color: var(--color-secundary);
+  color: var(--color-primary);
 	-webkit-animation: text-flicker-in-glow 4s linear both;
-    animation: text-flicker-in-glow 4s linear both;
+  animation: text-flicker-in-glow 4s linear both;
 }
+
 @-webkit-keyframes text-flicker-in-glow {
     0% {
       opacity: 0;
@@ -159,7 +156,7 @@
       opacity: 1;
       text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
     }
-  }
+}
   @keyframes text-flicker-in-glow {
     0% {
       opacity: 0;
@@ -284,106 +281,90 @@
       opacity: 1;
       text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
     }
-  }
+}
   
 
 
 /*Container Cards*/
 
 .container__img{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding-top: 25px;
-    gap: 40px;
+width: 100%;
+padding-bottom: 50px;
+padding-top: 35px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 150px;
+background-color: var(--color-4);
 }
 /*---------*/
 
 /*Cards Imagenes*/
 
-.Container__img{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .Card{
-  width: 250px;
-  background-color:var(--color-terciary);
-  border-radius: 5%;
+width: 250px;
+background-color:var(--color-terciary);
+border-radius: 5%;
 }
 
 .Card img{
-  width: 250px;
-  height: 250px;
+width: 220px;
+height: 250px;
 }
 
 .Card p{
-  background-color: var(--color-secundary);
-  color: var(--color-primary);
-  text-align: center;
+background-color: var(--color-secundary);
+color: var(--color-primary);
+text-align: center;
 }
 
 
-/*-------------*/
+/*COLOR PRECIOS*/
 
-
- 
-/*Circulo-Descuento*/
-.Redondel__descuento{
-    position: absolute;
-    left: 49%;
-    top: 67%;
-    width: 5.5dvh;
-    height: 5.5dvh;
-    background-color:var(--color-secundary);
-    border-radius: 50%;
+.card1 p:nth-child(3){
+background-color: var(--color-terciary);
+color: green;
+text-align: end;
+padding-right: 15px;
 }
 
-/*Posicionamiento Circulos de Descuento*/
-
-
-.Redondel__descuento{
-  color: var(--color-primary);
-  font-size: 12px;
-  position: absolute;
-  left: 58%;
-  top: 72%;
+.card2 p:nth-child(3){
+background-color: var(--color-terciary);
+color: green;
+text-align: end;
+padding-right: 15px;
 }
 
-
-.redondo2{
-    position: absolute;
-    top: 112%;
-    left: 58%;
+.card3 p:nth-child(3){
+background-color: var(--color-terciary);
+color: green;
+text-align: end;
+padding-right: 15px;
 }
 
-.redondo3{
-    position: absolute;
-    top: 152%;
-    left: 57%;
+.card4 p:nth-child(3){
+background-color: var(--color-terciary);
+color: green;
+text-align: end;
+padding-right: 15px;
 }
 
-.redondo4{
-    position: absolute;
-    top: 192%;
+.card5 p:nth-child(3){
+background-color: var(--color-terciary);
+color: green;
+text-align: end;
+padding-right: 15px;
 }
 
-.redondo5{
-    position: absolute;
-    top: 232%;
+.card6 p:nth-child(3){
+background-color: var(--color-terciary);
+color: green;
+text-align: end;
+padding-right: 15px;
 }
 
-.redondo6{
-    position: absolute;
-    top: 272%;
-}
 
 /*Footer*/
 
-.footer{
-    margin-top: 40px;
+.footer{padding-top: 50px;
 }

@@ -5,66 +5,111 @@
 /*HEADER*/
 header{
     width: 100%;
-    height: 34dvh;
+    height: 35dvh;
     overflow: hidden;
 }
 
 /*Propaganda de envio gratis */
 .animate__animated{
-   background-color: var(--color-secundary);
-   border-radius: 5px;
+    display: none;
 }
 .animate__flash{
-    width: 100%;
-    height: 25px;
-    text-align: center;
-    color: var(--color-primary);
-    padding: 3px;
+    display: none;
 }
 
 /*-*/
 
 /* NAVBAR */
 
-.nav__bar{
+
+.nav__bar a {
+    color: var(--color-primary);
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+    padding-bottom: 15px;
     text-align: center;
-    padding: 20px;
+    border-bottom: 1.5px solid #70a2d44b;
+    max-width: 200px;
+    background:var(--color-secundary);
+}
+
+.nav__bar input[type="checkbox"], .nav__bar .fa-bars, .nav__bar .fa-times {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+}
+
+.nav__bar .fa-bars, .nav__bar .fa-times {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 35px;
+    pointer-events: none;
+  }
+  
+.nav__bar input[type="checkbox"] {
+    opacity: 0;
+}
+  
+.nav__bar {
+    color:var(--color-primary);
+    position: relative;
+    background: var(--color-secundary);
+    min-height: 48px;
+    border-radius: 1%;
+    padding-left: 5%;
+    padding-bottom: 2%;
 }
 
 .nav__bar li{
     list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
-
-
-.nav__bar a{
-    text-decoration: none;
-    text-align: center;
-    color: var(--color-primary);
-    font-size: 16px;
-    padding: 5px;
+  
+.nav__bar nav {
+    display: none;
 }
-
-.nav__bar a:first-child{
-    color: red;
+  
+.nav__bar input:checked ~ nav {
+    display: block;
 }
+  
+.nav__bar input:checked ~ .fa-bars {
+    display: none;
+}
+  
+.nav__bar input:not(:checked) ~ .fa-times {
+    display: none;
+} 
 
-.nav__bar li a:last-child{
-    color:var(--color-primary);
+.nav__bar__desktop{
+    display: none;
 }
 
 
 .logo{
     position: relative;
-    left: 15%;
-    width: 220px;
-    height: 150px;
+    left: 18%;
+    top: 8%;
+    width: 250px;
+    height: 175px;
 }
- 
+
+
+/*NAV--BAR DESKTOP*/
+
+.nav__bar__desktop{
+    display: none;
+}
 
 /*--*/
+
+main{
+    background-color: var(--color-secundary);
+}
 
 /*SECTION 1----MOBILE*/
 
@@ -290,12 +335,12 @@ header{
     height: 30dvh;
     background-color:var(--color-5);
     border-radius: 5%;
-    transition: transform 0.3s;
 }
 
 .img__containerSec2:hover{
     transform: scale(1.2);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+    z-index: 10;
 }
 
 .img__imgsec2__1{
@@ -341,7 +386,7 @@ header{
     width: 35dvh;
     position: absolute;
     bottom: 50%;
-    left: 4%;
+    left: 10%;
 }
 .container__video{
     width: 100%;
@@ -371,7 +416,7 @@ header{
     height: 80dvh;
 }
 
-.section4 h1{
+.section4 h2{
     color: var(--color-primary);
     background-color: var(--color-secundary);
     font-size: 23px;
@@ -383,11 +428,12 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40dvh;
+    width: 36;
     height: 40dvh;
     padding: 25px;
     background-color: var(--color-secundary);
     border: solid 1px var(--color-primary);
+    border-radius: 1%;
 }
 .contenido__form__prom{
     width: 20dvh;
@@ -475,11 +521,12 @@ header{
 /*Boton subir*/
 
 .container__btn {
-    background-color: aqua;
     border: solid 1px var(--color-primary);
     border-radius: 15%;
 }
 
 .container__btn button{
     color: var(--color-primary);
+    background-color: var(--color-secundary);
 }
+
