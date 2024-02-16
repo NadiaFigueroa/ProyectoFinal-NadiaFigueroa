@@ -18,12 +18,12 @@
 
 
 .nav__bar__desktop li a:first-child{
-    color: var(--color-primary);
+color: var(--color-primary);
 }
 
 .nav__bar__desktop li a:last-child{
-    color:red;
-  }
+color:red;
+}
 
 /*Seccion1*/
 

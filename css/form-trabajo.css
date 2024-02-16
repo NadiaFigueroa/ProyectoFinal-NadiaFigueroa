@@ -15,7 +15,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 /*NAV BAR*/
 
 .nav__bar__desktop{
@@ -69,30 +68,30 @@ border-radius: 1%;
 }
 
 .contenido__form{
-    width: 20dvh;
-    height: 60dvh;
+width: 20dvh;
+height: 60dvh;
 }
 
 .contenido__form p{
-    color: rgba(0, 0, 0, 0.253);
-    text-align: center;
+color: rgba(0, 0, 0, 0.253);
+text-align: center;
 }
 
 
 .contenido__form .email:invalid{
-    background-color: rgba(255, 1, 1, 0.664);
+background-color: rgba(255, 1, 1, 0.664);
 }
 
 .contenido__form .email:valid{
     
-    background-color: rgba(79, 163, 11, 0.664);
+background-color: rgba(79, 163, 11, 0.664);
 }
 
 .archivo{
-    width: 21dvh;
+width: 21dvh;
 }
 
 .btn__form2{
-    margin-top: 25px;
-    margin-left: 77%;
+margin-top: 25px;
+margin-left: 77%;
 }
