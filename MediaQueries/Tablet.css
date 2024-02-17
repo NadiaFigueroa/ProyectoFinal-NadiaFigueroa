@@ -34,7 +34,7 @@ overflow: hidden;
     height: 185px;
 }
 
-/*---NAV BAR----*/
+/* NAV BAR */
 
 .nav__bar__desktop{
     display: block;
@@ -68,7 +68,7 @@ overflow: hidden;
     display: none;
 }
  
- /*SECCION 1- IMAGEN Y TITULO*/
+ /*SECCION 1 IMAGEN Y TITULO*/
 
 .section1{
     height: 100dvh;
